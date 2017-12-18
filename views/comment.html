@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comment</title>
+    <link rel="stylesheet" type="text/css" href="../public/font_eh0fpcd88eiv0a4i/iconfont.css">
+    <link rel="stylesheet" href="../public/css/assert/pager.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/nav_footer.css">
+    <link rel="stylesheet" href="../public/css/comment.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="nav">
+            <div class="nav-header">
+                <div class="nav-bar">
+                    <img src="../public/images/logo.png" alt="background"><span>HanChineseGemomes</span>
+                    <div class="input-group">
+                        <input type="text" placeholder="Keywords">
+                        <button>Search</button>
+                    </div>
+                </div>
+                <div class="nav-icon">
+                    <button id="toggle-navlist"><i class="iconfont icon-nav"></i></button>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./data.html">Data</a></li>
+                        <li><a href="./imputation.html">Imputation</a></li>
+                        <li><a href="./variant.html">Variant</a></li>
+                        <li><a href="./genetic_makeup.html">Genetic-makeup</a></li>
+                        <li><a href="./ancestry_inference.html">Ancestry-inference</a></li>
+                        <li class="active"><a href="./comment.html">Comment</a></li>
+                    </ul>
+                    <div class="login-self"></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <ul id="tabs">
+                <li><a href="#" title="tab1">Comment</a></li>
+                <li><a href="#" title="tab2">FAQ</a></li>
+            </ul>
+            <div id="content">
+                <div id="tab1">
+                    <div class="search-part">
+                        <input type="text" placeholder="Keywords">
+                        <button>Search</button>
+                    </div>
+                    <ul class="tab1-ul">
+                        <!-- <li class="tab1-li">
+                            <div class="tab1-comment"><a href="./comment_reply.html">How to use this Database?</a></div>
+                            <div class="tab1-info">
+                                <span class="tab1-reply">4 reply</span>
+                                <span class="tab1-date-author">2017-12-6 by  <span class="author">wangsir</span></span>
+                            </div>
+                        </li>
+                        <hr style="width:95%;margin:0 auto;opacity: 0.3;">
+                        <li class="tab1-li">
+                            <div class="tab1-comment"><a href="./comment_reply.html">How to use this DatabaseHow to use this DatabaseHow to use this DatabaseHow to use this DatabaseHow to use this DatabaseHow to use this Database?</a></div>
+                            <div class="tab1-info">
+                                <span class="tab1-reply">3 reply</span>
+                                <span class="tab1-date-author">2017-12-6 by <span class="author">huangxin</span></span>
+                            </div>
+                        </li>
+                        <hr style="width:95%;margin:0 auto;opacity: 0.3;"> -->
+                    </ul>
+                    <div id="pager"></div>
+                    <div class="comment-opt">
+                        <textarea id="issues"></textarea>
+                        <div class="submit">
+                            <button>submit</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab2">
+                    <ul class="faq-ul">
+                        <li class="faq-li">
+                            <div class="faq-title">图例 legend</div>
+                            <hr style="width:100%;opacity: 0.3;">
+                            <div class="faq-content">
+                                <div class="faq-little-title">图例区域太大导致遮挡住图表怎么办?</div>
+                                <p>可以设置 grid 控制图表区域位置。如，将 grid.top 设置得大一些，可以将绘图区域下移。</p>
+                                <p>在未来的版本中，我们计划会将布局做得更智能，自动处理这些遮挡问题。</p>
+                            </div>
+                        </li>
+                        <li class="faq-li">
+                            <div class="faq-title">提示框 tooltip</div>
+                            <hr style="width:100%;opacity: 0.3;">
+                            <div class="faq-content">
+                                <div class="faq-little-title">如何实现上下两个图表的提示框联动?</div>
+                                <p>ECharts 3.5 版本开始支持这一功能，效果参见这个例子。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            CAS-MAP Partner Institute for Computational Blology [PGG]. Copyright &copy; 2015-2017
+        </div>
+    </div>
+    <script src="../public/js/assert/jquery.min.js"></script>
+    <script src="../public/js/assert/accuracy.js"></script>
+    <script src="../public/js/assert/pager.js"></script>
+    <script src="../public/js/nav.js"></script>
+    <script src="../public/js/comment.js"></script>
+</body>
+
+</html>
